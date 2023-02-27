@@ -1,0 +1,49 @@
+.main {
+    width: 500px;
+    border: 1px solid black
+}
+
+.main button:nth-child(3n){
+    background-color: brown;
+    
+}
+
+button{
+    border: none;
+    border: 1px solid black;
+    background-color: wheat;
+    padding: 20px 50px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+  
+ 
+}
+
+.main :nth-child(3n):hover{
+    background-color: gray;
+}
+
+/* */
+
+article div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+article div:nth-child(2n+1){
+    background-color: red;
+}
+
+article div:nth-child(2n){
+    background-color: green;
+}
+
+article div:nth-child(3n){
+    background-color: blue;
+}
