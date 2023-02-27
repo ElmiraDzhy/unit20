@@ -16,8 +16,8 @@ td{
 }
 
 img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 span{
@@ -106,4 +106,14 @@ thead tr:nth-child(3) td{
 thead tr:last-child td{
     padding: 5px;
     font-size: 12px;
+}
+
+caption{
+    margin-left: 450px;
+    background-color: yellow;
+    width: 170px;
+    color: rgb(58, 58, 146);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 0px;
 }
